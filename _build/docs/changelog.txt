@@ -1,0 +1,3 @@
+Xodus 1.0
+========================================
+Beta released Tuesday November 13th 2012
