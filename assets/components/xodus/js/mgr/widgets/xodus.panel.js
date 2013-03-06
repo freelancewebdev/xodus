@@ -3,7 +3,7 @@ Xodus.panel.Xodus = function(config) {
     Ext.applyIf(config,{
         id: 'xodus-panel-xodus'
         ,url: Xodus.config.connectorUrl
-		,baseParams: { action: 'mgr/xodus/getfile' }
+		,baseParams: { action: 'mgr/xodus/getfile', limit: '0' }
         ,anchor: '98%'
 		,layout:'form'
 		,baseCls:'modx-formpanel'
