@@ -44,6 +44,7 @@ class XodusGetGroupUserListProcessor extends modObjectGetListProcessor {
 			'UserGroupMembers.user_group' => $usergroup,
 		));
 		$c->select(array('modUser.id','modUser.username','modUser.password'));
+		$c->limit(0);
         return $c;
     }
 	
