@@ -32,6 +32,11 @@ class XodusGetGroupUserListProcessor extends modObjectGetListProcessor {
 	private $users = array();
 	private $fext = '';
 	private $timestamp = '';
+
+	public function beforeQuery() {
+		$this->setProperty('limit', 0);
+		return true;
+	}
 	
 	public function prepareQueryBeforeCount(xPDOQuery $c) {
         $usergroup = (int)$this->getProperty('group',0);
@@ -46,11 +51,6 @@ class XodusGetGroupUserListProcessor extends modObjectGetListProcessor {
 		$c->select(array('modUser.id','modUser.username','modUser.password'));
 		return $c;
     }
-	
-	public function prepareQueryAfterCount(xPDOQuery $c) {
-		$c->limit(0);
-       	return $c;	
-	}
 	
 	public function prepareRow(xPDOObject $obj){
 		$profile = $obj->getOne('Profile');
