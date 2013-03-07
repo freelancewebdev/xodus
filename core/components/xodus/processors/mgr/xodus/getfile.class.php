@@ -44,8 +44,13 @@ class XodusGetGroupUserListProcessor extends modObjectGetListProcessor {
 			'UserGroupMembers.user_group' => $usergroup,
 		));
 		$c->select(array('modUser.id','modUser.username','modUser.password'));
-        return $c;
+		return $c;
     }
+	
+	public function prepareQueryAfterCount(xPDOQuery $c) {
+		$c->limit(0);
+       	return $c;	
+	}
 	
 	public function prepareRow(xPDOObject $obj){
 		$profile = $obj->getOne('Profile');

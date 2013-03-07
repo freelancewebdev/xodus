@@ -1,3 +1,11 @@
 Xodus 1.0
 ========================================
 Beta released Tuesday November 13th 2012
+
+
+Xodus 1.1
+========================================
+Released March 6th 2013.  
+Added Dutch lexicon
+Removed limit from returned results by 
+updating the processor script.
