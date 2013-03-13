@@ -9,3 +9,8 @@ Released March 6th 2013.
 Added Dutch lexicon
 Removed limit from returned results by 
 updating the processor script.
+
+
+Xodus 1.2
+=========================================
+Added German lexicon file

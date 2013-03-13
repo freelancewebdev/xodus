@@ -1,0 +1,42 @@
+<?php
+$_lang['xodus'] = 'Xodus';
+$_lang['xodus.desc'] = 'MODX Benutzer-Export';
+$_lang['xodus.intro'] = 'Wählen Sie eine Benutzer-Gruppe und das gewünschte Export-Format.';
+$_lang['xodus.group'] = 'Benutzer-Gruppe';
+$_lang['xodus.format'] = 'Datei Export-Format';
+$_lang['xodus.error_group'] = 'Bitte wählen Sie eine Benutzer-Gruppe aus';
+$_lang['xodus.error_file_format'] = 'Bitte wählen Sie ein Export-Format';
+$_lang['xodus.export'] = 'Export';
+$_lang['xodus.default_back'] = 'Abbrechen';
+$_lang['xodus.export_users'] = 'Benutzer erfolgreich exportiert. Ihr Download startet...';
+$_lang['xodus.export_no_users'] = 'Es sind keine zu exportierenden Benutzer in der gewählten Gruppe';
+$_lang['xodus.full_name'] = 'Name';
+$_lang['xodus.email'] = 'E-Mail';
+$_lang['xodus.password'] = 'Passwort';
+$_lang['xodus.phone'] = 'Telefon';
+$_lang['xodus.mobile'] = 'Mobil';
+$_lang['xodus.fax'] = 'Fax';
+$_lang['xodus.address'] = 'Adresse';
+$_lang['xodus.city'] = 'Stadt';
+$_lang['xodus.state'] = 'Bundesland';
+$_lang['xodus.zip'] = 'Postleitzahl';
+$_lang['xodus.country'] = 'Land';
+$_lang['xodus.dob'] = 'Geburtstag';
+$_lang['xodus.gender'] = 'Geschlecht';
+$_lang['xodus.photo'] = 'Foto';
+$_lang['xodus.website'] = 'Webseite';
+$_lang['xodus.comment'] = 'Kommentar';
+$_lang['xodus.extended_fields'] = 'Erweiterte Felder';
+$_lang['xodus.blocked'] = 'Geblockt';
+$_lang['xodus.blocked_after'] = 'Geblockt nach';
+$_lang['xodus.blocked_until'] = 'Geblockt bis';
+$_lang['xodus.last_login'] = 'Letzter Login';
+$_lang['xodus.login_count'] = 'Anzahl Logins';
+$_lang['xodus.failed_login_count'] = 'Anzahl fehlgeschlagener Logins';
+$_lang['xodus.session_id'] = 'Session ID';
+$_lang['xodus.error'] = 'Fehler';
+$_lang['xodus.error_text'] = 'Es ist ein Fehler aufgetreten';
+$_lang['xodus.return_link_text'] = 'Zurück';
+$_lang['xodus.fix_write'] = 'Bitte stellen Sie sicher, dass PHP auf folgende Verzeichnisse Schreibrechte besitzt.';
+
+?>
