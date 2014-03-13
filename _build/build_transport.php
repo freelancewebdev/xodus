@@ -7,7 +7,7 @@ set_time_limit(0);
 /* define package names */
 define('PKG_NAME','Xodus');
 define('PKG_NAME_LOWER','xodus');
-define('PKG_VERSION','1.2');
+define('PKG_VERSION','1.4');
 define('PKG_RELEASE','beta');
  
 /* define build paths */

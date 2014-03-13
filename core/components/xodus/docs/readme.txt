@@ -1,7 +1,7 @@
 --------------------
 Extra: Xodus
 --------------------
-Version: 1.2
+Version: 1.4
  
 Xodus is a simple MODX Revolution extra to enable the export of users from chosen user groups to CSV or Excel file format.
 

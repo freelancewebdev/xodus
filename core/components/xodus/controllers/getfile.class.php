@@ -61,7 +61,7 @@ class XodusGetfileManagerController extends XodusManagerController {
             header('Content-Disposition: attachment; filename="'.$_GET['f'].'"');  
             readfile($file_path);  
 			unlink($file_path);
-			return ' ';
+			exit();
 		}else{
 			$this->modx->lexicon->load('xodus:default');
 			$this->content = '<html><title>'.$this->modx->lexicon('xodus').' '.$this->modx->lexicon('xodus.error').'</title><head></head><body>

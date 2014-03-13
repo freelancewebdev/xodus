@@ -14,3 +14,11 @@ updating the processor script.
 Xodus 1.2
 =========================================
 Added German lexicon file
+
+Xodus 1.3
+=========================================
+Fix for typo in controller file line 47 preventing proper handling of CSV mime type
+
+Xodus 1.4
+=========================================
+Update to getfile.class.php as above to prevent unwanted whitespace appearing at the end of XSLX documents.
