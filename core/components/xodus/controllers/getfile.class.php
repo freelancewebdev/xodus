@@ -44,7 +44,7 @@ class XodusGetfileManagerController extends XodusManagerController {
 			$mimetype = '';
 			switch($ext){
 				case 'csv':
-					$imetype = 'text/csv';
+					$mimetype = 'text/csv';
 					break;
 				case 'xls':
 					$mimetype = 'application/excel';
