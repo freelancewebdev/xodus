@@ -22,7 +22,7 @@
  *
  * @package xodus
  */
-
+require_once dirname(dirname(__FILE__)) . '/getfile.class.php';
 class XodusGetfileManagerController extends XodusManagerController {
     public function process(array $scriptProperties = array()) {
  
