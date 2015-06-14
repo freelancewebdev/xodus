@@ -12,10 +12,10 @@ Xodus makes use of a modified version of PHPExcel (http://phpexcel.codeplex.com/
 You can find more information on Xodus in the blog post dedicated to it at http://www.hyper-typer.com/news/xodus-export-modx-users.
 
 Translation Credits:
-Dutch		Mark Hamstra
-Spanish 	Cecilia Marnero
-Russian		Tatyana Grishna
-German		Markus Gottschau
+Dutch: 		Mark Hamstra  
+Spanish:  	Cecilia Marnero  
+Russian: 		Tatyana Grishna  
+German: 		Markus Gottschau  
 
 
 
