@@ -1,9 +1,9 @@
-Xodus 1.0
+Xodus 1.0-beta
 ========================================
 Beta released Tuesday November 13th 2012
 
 
-Xodus 1.1
+Xodus 1.1-beta
 ========================================
 Released March 6th 2013.  
 Added Dutch lexicon
@@ -11,15 +11,20 @@ Removed limit from returned results by
 updating the processor script.
 
 
-Xodus 1.2
+Xodus 1.2-beta
 =========================================
 Added German lexicon file
 
-Xodus 1.3
+Xodus 1.3-beta
 =========================================
 Update to line 46 of core/xodus/controllers/getfile.class.php to address a typo in setting the mime type for CSV files
 
 
-Xodus 1.4
+Xodus 1.4-beta
 =========================================
 Update to getfile.class.php as above to prevent unwanted whitespace appearing at the end of XSLX documents.
+
+Xodus 1.0-pl
+=========================================
+Update to merge pull request from MatDave on github to bring
+MODX 2.3.x support and clean up some of my sloppy OSX files.
