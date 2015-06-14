@@ -299,21 +299,20 @@ $objPHPExcel->getActiveSheet()
 		}
 		$objWriter->save(dirname(dirname(dirname(dirname(__file__)))).'/tmp/'.$timestamp.'.'.$this->fext);
 	}
-	
-	function getActionURL(){
-		$action_url = '';
-		$manager_url = $this->modx->getOption('manager_url');
-		$version = $this->modx->getOption('settings_version');
-		if($version < 2.3){
-			$action = $this->modx->getObject('modAction',array('controller'=>'getfile','namespace'=>'xodus'));
-			$action_id = $action->get('id');
-			$action_url = '?a='.$action_id;
-		}else{
-			$action_url = '?action=getFile&namespace=xodus';
-		}
-		//$action_url = str_replace('/','\/',$action_url);
-		return $action_url;
-	}
+
+    function getActionURL(){
+        $action_url = '';
+        $version = $this->modx->getOption('settings_version');
+        if($version < 2.3){
+            $action = $this->modx->getObject('modAction',array('controller'=>'getfile','namespace'=>'xodus'));
+            $action_id = $action->get('id');
+            $action_url = '?a='.$action_id;
+        }else{
+            $action_url = '?a=getFile&namespace=xodus';
+        }
+        //$action_url = str_replace('/','\/',$action_url);
+        return $action_url;
+    }
 	
 	function getGender($genderid){
 		switch($genderid){
